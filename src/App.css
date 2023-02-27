@@ -1,0 +1,44 @@
+p {
+  color: blue;
+}
+/* h1 {
+  color: red;
+  background-color: yellow;
+} */
+
+.hamster {
+  border: 1px solid orange;
+  padding: 10px;
+  margin: 10px;
+}
+
+#aio {
+  background-color: green;
+  color: white;
+}
+header, footer {
+  background-color: green;
+  padding: 10px;
+  text-align: left;
+}
+nav {
+  background-color: greenyellow;
+  flex-basis: 10%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding: 10px;
+}
+section {
+  flex-grow: 4;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  height: 100vh;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
